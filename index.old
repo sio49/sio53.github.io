@@ -1,0 +1,365 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Tech WEb page </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      Site Web de Tech
+    </header>
+    <!--nav-->
+    <nav>
+      <ol>
+        <li><a href="http://mbvirtual.local.mbp">Localhost</a></li>
+        <li><a href="http://mbvirtual.local.mbp/~tech/">tech</a></li>
+      </ol>
+    </nav>
+    <!--main-->
+    <main>
+      <h1>Structure d'une Page Web</h1>
+      <Section>
+        <H2>Principes</H2>
+        <pre>--header-- 
+                  -main|
+                    --article 
+                    --section
+                    --div
+            --footer
+        </pre>
+      </section>
+      <section>
+        <h2>Ressources</h2>
+        <map name="infographic">
+          <area shape="poly" coords="130,147,200,107,254,219,130,228"
+                href="https://developer.mozilla.org/docs/Web/HTML"
+                target="_blank" alt="HTML">
+          <area shape="poly" coords="130,147,130,228,6,219,59,107"
+                href="https://developer.mozilla.org/docs/Web/CSS"
+                target="_blank" alt="CSS">
+          <area shape="poly" coords="130,147,200,107,130,4,59,107"
+                href="https://developer.mozilla.org/docs/Web/JavaScript"
+                target="_blank" alt="JavaScript">
+      </map>
+      <img usemap="#infographic" src="/media/examples/mdn-info2.png" alt="MDN infographic">
+
+      </section>
+  
+    </main>
+
+  <!--div wrapper-->
+<div class="wrapper_flex">
+  <div class="box1">
+      B1 <br/>
+      Support et mise à disposition de services informatiques
+  </div>
+  <div class="box2">
+      B2<br/>
+      Solutions d'infractructure, systèmes et réseaux : administration des systèmes et réseaux
+  </div>
+  <div class="box3">B3 <br/>
+    Cybersécurité des services informatiques
+  </div>
+</div>
+<div class="wrapper_grid">
+  <div class="box">Activité 1.1 <br/><br/>
+    Gestion du patrimoine informatique</div>
+  <div class="box">Activité 2.1 <br/><br/>
+    Conception d'une solution d'infrastructure</div>
+  <div class="box">Activité 3.1 <br/><br/>
+    Protection des données à caractère personnel</div>
+  <div class="box">Activité 1.2<br/><br/>
+    Réponse aux incidents et aux demandes d'assistances et d'évolution<br/>
+  </div>
+  <div class="box">Activité 2.2 <br/><br/>
+  Installation,test et déploiement d'une solution d'infrastructure réseau</div>
+  <div class="box">Activité 3.2<br/><br/>
+  Preservation de l'indentité numérique de l'organisation</div>
+  <div class="box">
+    Activité 1.3<br/><br/>
+    Développement de la présence en ligne de l'organisation
+  </div>
+  <div class="box">Activité 2.3<br/><br/>
+  Exploitation, dépannage et supervisiond'une solutiond'infrastructure réseau</div>
+  <div class="box">Activité 3.3<br/><br/>
+    Sécurisation des équipements et des usages des utilisateurs</div>
+  <div class="box">
+      Activité 1.4<br/><br/>
+      Travail en mode projet
+  </div>
+  <div class="box">Activité 2.3<br/><br/>
+  </div>
+  <div class="box">Activité 3.3<br/><br/>
+    Garantie de la disponibilité, de l'intégrité et des la confidentialité des services informatiques et des données de l'organisation face à des cyberattaques</div>
+  <div class="box">
+    Activité 1.5<br/><br/>
+    Mise à disposition des utilisateurs d'un service informatique
+</div>
+<div class="box">E</div>
+<div class="box">Activité 3.5<br/><br/>
+  Cybersécurisation d'une infrastructure réseau, d'un système, d'un service</div>
+</div>  <div class="box">
+  Activité 1.6<br/><br/>
+  Organisation de son développement professionnel
+</div>
+<div class="box">E</div>
+<div class="box">F</div>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction">CSS Layout</a></p>
+
+  <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="/icons/openlogo-75.png" alt="Debian Logo" class="floating_element"/>
+        <span class="floating_element">
+          Apache2 tech space
+        </span>
+        <h1>Tutoriel</h1>
+        <a href="https://developer.mozilla.org/fr/docs/Learn/Front-end_web_developer">Front-end_web_developer</a>
+        Temps : 1/ 2h 
+        <ul>
+          <li>Installation des logiciel de base</li>
+          <li>Contexte du web et des standars du web</li>
+          <li><a href-"https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Structure de Site Web</a></li>
+        </ul>
+      </div>
+     <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+      <!---->
+      <div class="table_of_contents_middle floating_element_right">
+        <div class="section_header section_header_grey">
+          Middle
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+      <!---->
+      <div class="table_of_contents floating_element_right">
+      <div class="section_header section_header_grey">
+        MODULES
+      </div>
+      <div class="table_of_contents_item floating_element">
+        <a href="#about">About</a>
+      </div>
+      <div class="table_of_contents_item floating_element">
+        <a href="#changes">Changes</a>
+      </div>
+      <div class="table_of_contents_item floating_element">
+        <a href="#scope">Scope</a>
+      </div>
+      <div class="table_of_contents_item floating_element">
+        <a href="#files">Config files</a>
+      </div>
+      
+    </div>
+    
+      <div class="section_header section_header_grey">
+        Modules activés: 
+      </div>
+      <div class="table_of_contents_item floating_element">
+        <a href="#about">About</a>
+        TEST
+        <ul>
+          <li>auth_basic</li>
+          <li>authn_core</li>
+          <li>authn_file</li>
+          <li>authz_core</li>
+          <li>authz_host</li>
+          <li>authz_user</li>
+          <li>env</li>
+          <li>filter</li>
+          <li>socache_shmcb</li>
+        </ul>
+      </div>
+      <div class="table_of_contents_item floating_element"></div>
+        <a href="#changes">Changes</a>
+        TESTB
+        <ul>
+          <li>alias</li>
+          <li>autoindex</li>
+          <li>deflate</li>
+          <li>dir</li>
+          <li>mime</li>
+          <li>mpm_event</li>
+          <li>negotiation</li>
+          <li>reqtimeout</li>
+          <li>setenvif</li>
+          <li>ssl</li>
+          <li>status</li>
+        </ul>
+      </div>
+<!---->
+      <div class="content_section floating_element">
+
+
+        <div class="section_header section_header_red">
+          <div id="about"></div>
+          It works!
+        </div>
+        <div class="content_section_text">
+          <p>
+            <a href="">tech</a>
+            <a href="apache_index.html">old_apache_index</a> 
+          </p>
+       <p>
+          userdir 
+          sudo a2enmod userdir 
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Debian's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Debian tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Debian systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2. Due to the use of
+                           environment variables, in the default configuration, apache2 needs to be
+                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Debian does not allow access through the web browser to
+                <em>any</em> file apart of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Debian document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www. This is different
+                to previous releases which provides better security out of the box.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>reportbug</tt> tool to report bugs in the
+                Apache2 package with Debian. However, check <a
+                href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=apache2;repeatmerged=0"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to respective packages, not to the web server itself.
+          </p>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+
