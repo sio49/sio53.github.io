@@ -1,6 +1,6 @@
   * {
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
   }
 
   body, html {
@@ -199,6 +199,63 @@
 .box{
   background-color: #21cd46;
 }
+.container_grid{
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "sidebar content"
+  "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
 
-  div.validator {
-  }
+header{
+  grid-area: header;
+  grid-column: 1/13;
+  grid-row: 1;
+}
+article{
+  grid-area: content;
+  grid-column: 4/13;
+  grid-row: 2;
+}
+aside{
+  grid-area: sidebar;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+footer{
+  grid-area: footer;
+  grid-column: 1/13;
+  grid-row:3;
+}
+
+.box_aside{
+  text-align: left;
+}
+ol{
+  list-style-type: square;
+}
+li{
+  list-style-type: square;
+}
+
+#B11_child{
+  display: none;
+}
+
+.box:hover {
+  background-color: #CD214F;
+}
+
+article:has(#A11:hover) #B11_child{
+  background-color: #f0a267;
+}
+#A12:hover {
+  background-color: #92a02c;
+}
+
+#A12:hover > #B11_child{
+  display: block;
+
+}
