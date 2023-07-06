@@ -2,7 +2,14 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
-
+a:link{
+  text-decoration:none;
+  color: #b69889;
+  background-color: green;
+}
+a:hover{
+  color: #75baff;
+}
   body, html {
     padding: 3px 3px 3px 3px;
 
