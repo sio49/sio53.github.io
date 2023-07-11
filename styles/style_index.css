@@ -11,8 +11,6 @@ main{
   margin-bottom:2px;
   padding-bottom: 2px;
   grid-template-columns: 1fr 3fr;
-  
-
 }
 footer{
   padding-top: 2px;
@@ -44,15 +42,41 @@ body, html {
     text-align: center;
 }
 
-.year{
+.b1{
   grid-area: year;
+  text-align: left;
+  height: auto;
   
 }
-.month{
+.b1 a {
+  color:#75baff
+}
+article main ul li { 
+  color:aquamarine ;
+}
+article main ul li ul li {
+  color:brown;
+  padding-left:10px;
+
+
+}
+article main ul li ul li ul li{
+  color: cadetblue;
+  padding-left:20px;
+  display:block;
+}
+article main ul li ul li ul li ul li{
+  color:chocolate
+}
+article main ul li ul li ul li ul li ul li{
+  color:aqua
+}
+.b2{
   grid-area: month;
+  text-align:left;
   
 }
-.week{
+.b3{
   display:grid;
   grid-template: "one two three";  
 }
@@ -60,7 +84,7 @@ body, html {
 .grid-content{
   display:grid;
   width: 100%;
-  height: 200px;
+  height: auto;
   grid-template: "year month week" 1fr ;
 }
  
@@ -71,6 +95,10 @@ body, html {
 
 .holy{
   border:solid;
+}
+.stage{
+  border: solid;
+  border-color: green;
 }
 
 .weeks{

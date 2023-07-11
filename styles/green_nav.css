@@ -17,17 +17,17 @@ ul{
     margin:0;
     padding:0;
 }
-ul li {display: inline-block;}
-ul li:hover {background: #555;}
-ul li:hover ul {display: block;}
-ul li ul {
+nav li {display: inline-block;}
+nav ul li:hover {background: #555;}
+nav ul li:hover ul {display: block;}
+nav ul li ul {
     position: absolute;
     width: 200px;
     display: none;
 }
-ul li ul li {
+nav ul li ul li {
     background: #555;
     display: block;
 }
-ul li ul li a {display:block !important;}
-ul li ul li:hover {background: #666;}
+nav ul li ul li a {display:block !important;}
+nav ul li ul li:hover {background: #666;}
